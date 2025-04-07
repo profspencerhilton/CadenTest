@@ -6,7 +6,7 @@ interface FetchBooksResponse {
 }
 
 const API_URL =
-  'https://backend-caden-g8hbghhaeaaab4et.westus2-01.azurewebsites.net/Book/GetBookCategory';
+  'https://backend-caden-g8hbghhaeaaab4et.westus2-01.azurewebsites.net/Book';
 
 export const fetchBooks = async (
   pageSize: number,
